@@ -4,7 +4,7 @@ Naïve Bayes Classifier using Spark MapReduce
 1. Import the .ipynb file.
 2. An overview of the code:
    Step-1: Import all the libraries and load the dataset.
-           The dataset is available at https://github.com/poojaminna/dataset- Assignment2/blob/main/maindata.csv
+           The dataset is available at https://github.com/poojaminna/dataset-Assignment2/blob/main/maindata.csv
    Step-2: Transform the raw data into token of words using Tokenizer and then remove stopwords using StopWordsRemover.
    Step-3: Split the data into training and testing data.
    Step-4: Calculate prior probabilities: P(Spam)= No_of_spamtexts/Total_no_of_texts, P(Ham)=Np_of_hamtexts/Total_no_of_texts.
